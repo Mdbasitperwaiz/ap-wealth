@@ -56,8 +56,8 @@ const TermsConditions: React.FC = () => {
           <div className="prose prose-invert max-w-none space-y-8 text-gray-300 font-medium leading-relaxed">
             <p>
               Welcome to **AP Wealth Creation** ("Company", "we", "our", "us"). By accessing or using{' '}
-              <a href="https://apweathcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-[#26D07C] hover:underline font-bold">
-                apweathcreation.co.in
+              <a href="https://apwealthcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-[#26D07C] hover:underline font-bold">
+                apwealthcreation.co.in
               </a>
               , you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please discontinue using our website.
             </p>
@@ -169,8 +169,8 @@ const TermsConditions: React.FC = () => {
                   <Globe className="text-[#26D07C] shrink-0 mt-0.5" size={20} />
                   <div>
                     <h4 className="text-white font-bold text-sm mb-0.5">Website</h4>
-                    <a href="https://apweathcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-[#26D07C] transition-colors">
-                      apweathcreation.co.in
+                    <a href="https://apwealthcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-[#26D07C] transition-colors">
+                      apwealthcreation.co.in
                     </a>
                   </div>
                 </div>

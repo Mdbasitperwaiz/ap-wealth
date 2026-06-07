@@ -56,8 +56,8 @@ const PrivacyPolicy: React.FC = () => {
           <div className="prose prose-invert max-w-none space-y-8 text-gray-300 font-medium leading-relaxed">
             <p>
               At **AP Wealth Creation**, we value your privacy and are committed to protecting your personal information. This Privacy Policy describes how we collect, use, and safeguard your data when you visit{' '}
-              <a href="https://apweathcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-[#26D07C] hover:underline font-bold">
-                apweathcreation.co.in
+              <a href="https://apwealthcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-[#26D07C] hover:underline font-bold">
+                apwealthcreation.co.in
               </a>
               .
             </p>
@@ -132,8 +132,8 @@ const PrivacyPolicy: React.FC = () => {
                   <Globe className="text-[#26D07C] shrink-0 mt-0.5" size={20} />
                   <div>
                     <h4 className="text-white font-bold text-sm mb-0.5">Website</h4>
-                    <a href="https://apweathcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-[#26D07C] transition-colors">
-                      apweathcreation.co.in
+                    <a href="https://apwealthcreation.co.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-[#26D07C] transition-colors">
+                      apwealthcreation.co.in
                     </a>
                   </div>
                 </div>
