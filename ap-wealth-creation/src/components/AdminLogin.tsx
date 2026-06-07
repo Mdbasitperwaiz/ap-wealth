@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_URL } from '../config';
 
 const AdminLogin = ({ onLogin }: { onLogin: (token: string) => void }) => {
   const [username, setUsername] = useState('');
@@ -12,7 +13,7 @@ const AdminLogin = ({ onLogin }: { onLogin: (token: string) => void }) => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/admin/login', {
+      const response = await fetch(`${API_URL}/api/admin/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password })

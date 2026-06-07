@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import AdminLogin from './AdminLogin';
 import { LogOut, RefreshCcw } from 'lucide-react';
+import { API_URL } from '../config';
 
 interface Contact {
   _id: string;
@@ -22,7 +23,7 @@ const AdminDashboard = () => {
     if (!token) return;
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/api/admin/contacts', {
+      const response = await fetch(`${API_URL}/api/admin/contacts`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (response.status === 401) {
@@ -56,7 +57,7 @@ const AdminDashboard = () => {
 
   const updateStatus = async (id: string, newStatus: string) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/admin/contacts/${id}`, {
+      const response = await fetch(`${API_URL}/api/admin/contacts/${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

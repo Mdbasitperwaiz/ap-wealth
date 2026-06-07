@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import { API_URL } from '../config';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -26,7 +27,7 @@ const Contact: React.FC = () => {
 
     // Call the backend in background (fire-and-forget) so it logs if running
     try {
-      fetch('http://localhost:5000/api/contact', {
+      fetch(`${API_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
